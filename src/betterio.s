@@ -2,6 +2,7 @@
 .global read
 .global open
 .global close
+.global lseek
 
 .text
 
@@ -22,5 +23,10 @@ ret
 
 close:
 mov $3, %rax
+syscall
+ret
+
+lseek:
+mov $8, %rax
 syscall
 ret

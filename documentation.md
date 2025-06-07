@@ -26,7 +26,9 @@ int main()
   char *file_contents = "";
 
   write(file, "Hi\n\0", 4);
+  lseek(file, 0, 0);
   read(file, file_contents, 4);
+
   write(1, file_contents, 4);
 
   close(file);
