@@ -29,6 +29,8 @@ int main()
   read(file, file_contents, 4);
   write(1, file_contents, 4);
 
+  close(file);
+
   return 0;
 }
 ```
