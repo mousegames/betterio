@@ -1,7 +1,7 @@
 # Better io
 
 ## how to use
-### step one:
+### step one
 clone this repo in your project folder
 `git clone mousegames/betterio`
 
