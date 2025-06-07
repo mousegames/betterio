@@ -3,11 +3,11 @@
 ## how to use
 ### step one:
 clone this repo in your project folder
-'git clone mousegames/betterio'
+`git clone mousegames/betterio`
 
 ### step two
 asemble src/betterio.s
-'as src/betterio.s -o betterio.o'
+`as src/betterio.s -o betterio.o`
 
 ### step three
 when compiling your C include betterio.o and src/betterio.c 
