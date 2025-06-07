@@ -25,7 +25,7 @@ void read(int fd, char *buf, int len);
 same as above
 #### description
 Read from a fd
-##$# open
+#### open
 ```c
 int open(char *filename, int flags, unsigned int mode);
 ```
