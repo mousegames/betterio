@@ -3,10 +3,10 @@
 ## Key
 
 ### fd:
-0 stdin\n
-1 stdout\n
-2 error\n
-3+ file\n
+0 stdin  
+1 stdout  
+2 error  
+3+ file  
 open returns an fd
 ### buf
 buffer for reading or writing
@@ -19,9 +19,9 @@ the permissions if you create a file in open()
 ### offset in lseek 
 reposition fd offset
 ### whence in lseek
-0 sets the fd to the the offset arg\n
-1 current location of the offset + the offset arg\n
-2 the sizeof the file + the offset arg\n
+0 sets the fd to the the offset arg  
+1 current location of the offset + the offset arg  
+2 the sizeof the file + the offset arg  
 
 ## Function signatures
 
