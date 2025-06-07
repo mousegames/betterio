@@ -18,6 +18,11 @@ int open(char *filename, int flags, unsigned int mode);
 ```c
 int close(int fd);
 ```
+### lseek
+```c
+long lseek(int fd, long offset, int whence);
+```
+
 ## example
 ```c
 int main()
